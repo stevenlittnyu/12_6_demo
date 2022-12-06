@@ -9,6 +9,8 @@ void setup() {
 }
 
 void loop() {
+  neopixel.setPixelColor(0, 255, 100, 100);
+  neopixel.show();
   digitalWrite(ledPin, HIGH);
   delay(500);
   digitalWrite(ledPin, LOW);
