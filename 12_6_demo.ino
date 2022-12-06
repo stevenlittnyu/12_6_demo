@@ -1,4 +1,8 @@
+#include "Adafruit_NeoPixel.h"
+
 int ledPin = 13;
+
+Adafruit_NeoPixel neopixel(1, 32, NEO_RGB);
 
 void setup() {
   pinMode(ledPin, OUTPUT);
